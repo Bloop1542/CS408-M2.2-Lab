@@ -1,14 +1,29 @@
-Alec Conn
-CS-408
+# web-dev-starter
 
-## Running
-To run the Website you need the Live Preview extension installed and from there you will use the 
-Live Preview: Start Server
-command to run the website. 
+This is a starter project for web development with no frameworks and minimal
+dependencies. It is intended to be a starting point for web development projects
+that are written in plain HTML, CSS, and JavaScript.
+
+## Getting Started
+
+To get started, clone this repository and run the following commands:
+
+```bash
+npm install
+```
+This will install the necessary dependencies for the project.
+
+## Development
+
+It is recommended to use the VSCode Live Server extension to run the project
+locally. This will allow you to see changes in real-time as you make them. There
+is no need to run a build process or refresh the page manually. Additionally,
+you do not need to setup a local server to run the project.
 
 ## Testing
-Run the npm test command to test the code
 
-## Retrospective
-This was a good introduction lab to the class. I had to do some Googling
-to remember some of the css rules as well as looking up some cool rules to make, such as making the image hover. I also had to look up how to make an alert dialogue display.
+To run the tests for the project, run the following command:
+
+```bash
+npm test
+```
