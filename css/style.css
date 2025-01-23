@@ -1,5 +1,73 @@
-h1{
+/* Center the content of the body */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0;
+  background-color: #f4f4f9; 
+  font-family: Arial, sans-serif; 
+}
+
+/* Style the main heading */
+h1 {
   border-color: blue;
   border-style: solid;
-  border-width: medium;  
+  border-width: medium;
+  border-radius: 8px;
+  padding: 10px 20px; 
+  color: #0044cc; 
+  background-color: #e6f3ff; 
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+/* Style the secondary heading */
+h2 {
+  font-weight: bold; 
+  font-size: 2rem; 
+  text-decoration: underline;
+  color: #4a4a4a; 
+  margin-bottom: 20px; 
+}
+
+/* Style the unordered list */
+ul {
+  border-color: rgb(151, 22, 221); 
+  border-style: solid;
+  border-width: thick;
+  margin: auto;
+  border-radius: 8px;
+  font-size: larger;
+  padding: 15px; 
+  background-color: #f9e8ff; 
+  list-style: disc inside; 
+  width: fit-content; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Style the list items */
+ul li {
+  margin-bottom: 10px; 
+  font-size: 1.2rem;
+  color: #5a0a88; 
+}
+
+/* Style the image */
+img {
+  display: inline-block;
+  border: 5px solid rgb(151, 22, 221); 
+  width: 400px; 
+  height: auto; 
+  border-radius: 8px;
+  margin: 20px 0; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Make the image hover */
+img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); 
 }
